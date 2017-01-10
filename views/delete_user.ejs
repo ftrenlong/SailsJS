@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>delete USER</title>
+<style>
+    li{  display: inline-block;
+    list-style-type: none;
+    margin-left: 15px;
+    text-transform: uppercase;}
+</style>
+</head>
+<body>
+<ul>
+        <li><a href="/user/index/1">List User </a></li>
+        <li><a href="/user/insertUser">insert user</a></li>
+        <li><a href="/user/updateUser">updete user</a></li>
+        <li><a href="/user/deleteUser">delete user</a></li>
+        <li><a href="/logout">logout</a></li>
+    </ul>
+<h1>delete user</h1>
+<% if(typeof users !=='undefined'){%>
+<% _.each(users, function (user) { %>
+<form method="POST" action="/user/deleteUser">
+    <lable style="  margin-right: 10px;">Id :</lable> <input readonly="true" style="width:15px" value="<%= user.id %>" type="text" name="id"> 
+   <lable style="  margin-right: 10px;">User name</lable> <input readonly="true" style="width:140px" value="<%= user.username %>" type="text" name="username"> 
+    <lable style=" margin-right: 10px;">Email </lable><input readonly="true" value="<%= user.email %>" type="email" name="email">
+   <input type='hidden' name='_csrf' value='<%= _csrf %>'>
+   <input type="submit" value="DELETE">
+</form>
+<%})}%>
+    <% if(typeof message!=='undefined'){%>
+        <h2><%= message%></h2>
+    <% } %>
+       
+</body>
+</html>

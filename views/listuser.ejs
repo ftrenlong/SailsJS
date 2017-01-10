@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>MANAGE USER</title>
+<style>
+    li{     display: inline-block;
+    list-style-type: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    }
+</style>
+</head>
+<body>
+<ul>    <li><a href="/user/index/1">List User</a></li>
+        <li><a href="/user/insertUser">insert user</a></li>
+        <li><a href="/user/updateUser">updete user</a></li>
+        <li><a href="/user/deleteUser">delete user</a></li>
+        <li><a href="/logout">logout</a></li>
+    </ul>
+<% if(typeof users!='undefined'){%>
+<h1>list user in page <%= page %> : </h1>
+<ul>
+    <% _.each(users, function (user) { %>
+    <li style="background : #9fe4ac;    width: 150px;">id user : <%= user.id %></li><br>
+    <li>user name : <%= user.username %></li><br>
+    <li>email : <%= user.email %></li><br>
+    <li>status : <%= user.status %></li><br>
+    <li>expiration date : <%= user.expiration_date %></li><br>
+    <li>number page  : <%= user.numberpage %></li><br>
+    <% }) %>
+  </ul>
+<%}else {%>
+    <p><%= page %></p>
+<% } %>
+
+</body>
+</html>

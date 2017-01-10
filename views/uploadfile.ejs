@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>delete USER</title>
+<style>
+   
+</style>
+</head>
+<h1>upload file</h1>
+<form name="" method="POST" action="/file/upload" enctype="multipart/form-data">
+    <label>select file </label>
+    <input  type="file" name="avatar" multiple="multiple" />
+    <input type="hidden" name="_csrf" value="<%=_csrf %>"   />
+    <input type="submit" name="Upload"   />
+</form>
+
+<% if( typeof files !== 'undefined'){ %>
+ <% _.each(files, function (info) { %>
+    
+<p><%=info.filename + message %></p>
+<%  if( extensions == 'csv'){ %>
+            <button><a href="/file/importCsv?filename=<%=info.filename %>">Import data</a></button>
+ <% }else if( extensions == 'xlsx' || extensions == 'xls' ){%>
+            <button><a href="/file/importXls?filename=<%=info.filename %>">Import data</a></button>    
+     <%}%>
+<% })%>
+ 
+
+<% }else if(typeof message !== 'undefined'){%>
+<p><%= message %></p>
+ <%}%>
+
+
+          
+ 
+
+</body>
+</html>

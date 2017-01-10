@@ -1,0 +1,2 @@
+global.numberUser = 4
+
