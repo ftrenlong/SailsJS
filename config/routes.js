@@ -55,7 +55,6 @@ module.exports.routes = {
       view: 'uploadfile' 
   },
   'get /file/importCsv' : 'FileController.importCsvData',
-  'get /file/importXlsx' : 'FileController.importXlsxData',
   'get /file/importExcel' : 'FileController.importExcelData',
   'get /file/exportCsv' : 'FileController.exportCsvData',
   'get /file/exportExcel' : 'FileController.exportExcelData'
