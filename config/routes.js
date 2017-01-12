@@ -56,8 +56,9 @@ module.exports.routes = {
   },
   'get /file/importCsv' : 'FileController.importCsvData',
   'get /file/importXlsx' : 'FileController.importXlsxData',
-  'get /file/importXls' : 'FileController.importXlsData',
-  'get /file/exportCsv' : 'FileController.exportCsvData'
+  'get /file/importExcel' : 'FileController.importExcelData',
+  'get /file/exportCsv' : 'FileController.exportCsvData',
+  'get /file/exportExcel' : 'FileController.exportExcelData'
  
   /***************************************************************************
   *                                                                          *

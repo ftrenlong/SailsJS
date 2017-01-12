@@ -1,0 +1,16 @@
+id,username,password,email,status,expiration_date,avatarUrl,avatarFd
+23,Hoi11,$2a$10$Yeb3fUVlJCdMCvu2kccwbePpmzCiM3aEyqm9WZDERyLq3vzSAgDTq,anhoi@gmail.com,active,Sat Dec 24 2016 00:00:00 GMT+0700 (ICT),http://localhost:1337/user/avatar/undefined,/var/www/html/nodejs/.tmp/uploads/fa6070dc-362e-484e-a102-3293b80efc74.csv
+24,nganh ngô,$2a$10$HdAvy/DSY5tefWwnZw4xW.gau493rL6bdi2G32THqgnnQn0uZ.oea,nganh@gmail.com,active,0000-00-00 00:00:00,http://localhost:1337/user/avatar/undefined,/var/www/html/nodejs/.tmp/uploads/fa6070dc-362e-484e-a102-3293b80efc74.csv
+26,haiii,$2a$10$/jeIAN6y5vkctQJg1zx/XO.iFRT0EAy8RHWbFRU9UcYwdQJCh5umG,haiii@gmail.com,active,0000-00-00 00:00:00,http://localhost:1337/user/avatar/undefined,/var/www/html/nodejs/.tmp/uploads/fa6070dc-362e-484e-a102-3293b80efc74.csv
+32,haiiirrrrrrr,$2a$10$vo2NCC1LTtzOKtG/rdqLMeAYqltKCAYJNXJKVK7fA/cIOCp6bAsOu,haiii@gmail.com,active,0000-00-00 00:00:00,http://localhost:1337/user/avatar/undefined,/var/www/html/nodejs/.tmp/uploads/fa6070dc-362e-484e-a102-3293b80efc74.csv
+33,haiiieeeeeeee,$2a$10$krzB7NMsRmS36LU.mK6nzuVIE./Tybt1g9/30p5rb5KnpY0AY/w4u,haiii@gmail.com,active,0000-00-00 00:00:00,http://localhost:1337/user/avatar/undefined,/var/www/html/nodejs/.tmp/uploads/fa6070dc-362e-484e-a102-3293b80efc74.csv
+100,an,$2a$10$ViXdpPg2MvwkmC3ZCYKpEegz.z/Kq0rWn4jjAXuJCEncvYHqOKuLm,sas@gmail.com,inactive,Thu Nov 17 2016 00:00:00 GMT+0700 (ICT),,
+101,hoi,$2a$10$IZBKxMDFNLP3YieC79OZPO91dqET1EYmJGekS509OtwZwATNpG8iG,as@gmail.com,active,Fri Nov 16 2018 00:00:00 GMT+0700 (ICT),,
+102,le,$2a$10$kEGD42C/o1dIQDhQKjyQ5OIepdfaHGCjNZtfVngV9ejb653qUFlvS,sas@gmail.com,inactive,Thu Nov 17 2016 00:00:00 GMT+0700 (ICT),,
+103,thanh,$2a$10$3SmdPJIZhVrfB88MfOGDD.GZzQt96vhV49mVNOWqrbwwy8i3USTSu,as@gmail.com,active,Fri Nov 16 2018 00:00:00 GMT+0700 (ICT),,
+104,hoi,$2a$10$9FOPyh/TDr6u.2URtRqOF.Zoh0z/q/dGOUG7sCC4kspgWKo9nejM.,as@gmail.com,active,Fri Nov 16 2018 00:00:00 GMT+0700 (ICT),,
+105,ly,$2a$10$2pA0exTJ603/I4CQOSRvietfATGAFA42z/8fGseIkGna8CmtE4jZm,zas@gmail.com,inactive,Sun Nov 20 2016 00:00:00 GMT+0700 (ICT),,
+106,an,$2a$10$qEP/uj5XnZDHIwvhG18/d./SusJb8P.aEtVMLelDwWu/K0Ps63Kte,sas@gmail.com,inactive,Thu Nov 17 2016 00:00:00 GMT+0700 (ICT),,
+107,oanh,$2a$10$Y/xenkORd19idX/cWEJ.7ew.90NPl44HPpXo/.85v20838yXNaYZW,vas@gmail.com,inactive,Fri Nov 18 2016 00:00:00 GMT+0700 (ICT),,
+108,nhan,$2a$10$dhhzZrPwFj8YMz5WbLCK9uo4CUd1qCzgGNH/VZL.rffoxZw9aqewC,xas@gmail.com,active,Sun Nov 19 2017 00:00:00 GMT+0700 (ICT),,
+109,ngay,$2a$10$lpjEeGNvKBTJQmL1iE6Ad.on7085vLyNucPM8zifOhpKjP7UgqOb.,mas@gmail.com,active,Tue Nov 21 2017 00:00:00 GMT+0700 (ICT),,

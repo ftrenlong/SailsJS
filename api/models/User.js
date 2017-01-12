@@ -24,12 +24,6 @@ module.exports = {
     expiration_date: {
       type: 'datetime'
     },
-    avatarUrl : {
-      type: 'string'  
-    },
-    avatarFd: {
-      type: 'string'  
-    },
     toJSON: function () {
       var obj = this.toObject()
       delete obj.password
